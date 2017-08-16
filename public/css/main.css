@@ -1,0 +1,31 @@
+.racer_table td {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #ACACAC;
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.racer_table{
+	margin: 0 auto;
+}
+#player1_race td.active {
+  background-image: url("../img/player_1.png");
+}
+#player2_race td.active {
+  background-image: url("../img/player_2.png");
+}
+.start{
+	font-weight: bolder;
+	font-size: 1.25em;
+	color: #00FF07;
+	background-color: #D4D4D4;
+}
+.finish{
+	font-weight: bolder;
+	font-size: 1.25em;
+	color: #212121;
+	background-color: #D4D4D4;
+}
